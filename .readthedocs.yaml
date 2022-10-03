@@ -4,3 +4,9 @@ python:
   version: 3.7
   install:
     - requirements: docs/requirements.txt
+  install:
+    - method: pip
+      path: .
+      
+sphinx:
+  fail_on_warning: true
